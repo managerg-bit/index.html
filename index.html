@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyMusic — Spotify Benzeri Demo</title>
+  <style>
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:#0b0f14;
+      color:#fff;
+    }
+    .center{
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      gap:20px;
+    }
+    button{
+      padding:14px 24px;
+      font-size:16px;
+      border-radius:10px;
+      border:none;
+      background:#1db954;
+      color:#000;
+      cursor:pointer;
+    }
+    button:hover{opacity:.9}
+  </style>
+</head>
+<body>
+  <div class="center">
+    <h1>🎵 MyMusic Demo</h1>
+    <p>Spotify benzeri basit web müzik oynatıcı</p>
+    <audio controls>
+      <source src="https://cdn.pixabay.com/download/audio/2022/10/03/audio_89f1c36f49.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="alert('Site çalışıyor kral 😎')">Test Butonu</button>
+  </div>
+</body>
+</html>
